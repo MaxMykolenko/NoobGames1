@@ -1,0 +1,12 @@
+body{
+	background-image:url(files/background.png) ;
+}
+#About{
+	background-color:#A569BD;
+	font-size: 25px;
+}
+#Button{
+	background-color:#A569BD;
+	text-align: left;
+	font-size: 25px;
+}
