@@ -5,8 +5,13 @@ body{
 	background-color: #A569BD;
 	font-size: 25px;
 }
-#Button{
-	background-color: #A569BD;
-	align-content: right;
-	font-size: 25px;
+.button{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
 }
