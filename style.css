@@ -2,13 +2,12 @@ body{
 	background-image:url(files/background.png) ;
 }
 #About{
-	background-color:#A569BD;
-	background-size:30px;
+	background-color: #A569BD;
 	font-size: 25px;
 }
 #Button{
-	background-color:#A569BD;
+	background-color: #A569BD;
 	background-size:30px;
-	text-align: left;
+	align-items: left;
 	font-size: 25px;
 }
