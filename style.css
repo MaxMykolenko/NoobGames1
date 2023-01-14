@@ -4,6 +4,7 @@ body{
 #About{
 	background-color:#A569BD;
 	font-size: 25px;
+	display: flex;
 }
 #Button{
 	background-color:#A569BD;
