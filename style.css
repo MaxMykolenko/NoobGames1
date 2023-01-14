@@ -7,6 +7,6 @@ body{
 }
 #Button{
 	background-color: #A569BD;
-	align-items: left;
+	align-content: left;
 	font-size: 25px;
 }
