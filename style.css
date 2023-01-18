@@ -1,0 +1,57 @@
+html, body {
+  width: 99%;
+  height:98%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body{
+	/*background-image:url(files/background.png);*/
+	background-color: #B4AF00;
+}
+
+#Baton{
+    background-color: #FFD700;
+    border: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+#About{
+	font-size: 25px;
+	background-color: #AAE3FF;	
+}
+#Div1{
+	width: 300px;
+
+}
+
+ #Div2{
+ 	width: 500px;
+	background-color: #AAE3FF;
+ } 
+
+#Div3{
+	margin:100px;
+	width: 500px;
+}
+    
