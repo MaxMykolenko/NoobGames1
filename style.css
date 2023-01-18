@@ -30,29 +30,42 @@ body{
     border: white;
     color: black;
     padding: 15px 32px;
+    margin: 0 auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
 }
-#About{
-	font-size: 25px;
+#About1{
+	
 	background-color: #AAE3FF;	
 }
 #Div1{
 	width: 300px;
-
 }
 
  #Div2{
- 	width: 500px;
-	background-color: #AAE3FF;
+ 	width: 600px;
+
  } 
+ #About{
+ 	background-color: #AAE3FF;
+	font-size: 25px;
+ }
 
 #Div3{
-	padding: 40px;
-	margin:100px;
-	width: 500px;
+	padding: 100px;
+	text-align: center;
+
 }
-    
+#images{
+	margin-right:lenth = 100px;
+}
+
+.scale {
+    transition: 1.5s; /* Время эффекта */
+}
+.scale:hover {
+    transform: scale(1.4); /* Увеличиваем масштаб */
+}
