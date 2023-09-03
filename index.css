@@ -1,3 +1,4 @@
+/*background*/
 html, body {
     width: 99%;
     height:98%;
@@ -89,8 +90,33 @@ html, body {
 	font-size: 35px;
 
 }
+/* div where Games and News*/
 
-#Text{
-    font-size: 20px;
-    color:#000000;
+ /* Стилі для першого блоку (лівого) */
+ .left-block {
+    float: left; /* Вирівнювання зліва */
+    width: 40%; /* Половина ширини батьківського контейнера */
+    /*background-color: #e09696;*/
+    padding: 20px;
+}
+
+/* Стилі для другого блоку (правого) */
+.right-block {
+    float: right; /* Вирівнювання справа */
+    width: 40%; /* Половина ширини батьківського контейнера */
+   /* background-color: #e09696;*/
+    padding: 20px;
+}
+
+/* Очищення float для батьківського контейнера */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Стилі для тексту */
+.right-block p {
+     font-size: 25px; /* Розмір шрифту тексту */
+     color: #000000; /* Колір тексту */
+     margin-top: 10px; /* Зовнішній відступ зверху */
 }
